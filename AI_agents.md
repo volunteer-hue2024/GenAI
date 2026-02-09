@@ -1,8 +1,8 @@
 # AGENTS DON'T ASK - THEY JUST DO IT
-```python
-  print("This was hidden!")
-https://www.geeksforgeeks.org/batch/twenty-projects-in-twenty-days-batch-5?tab=Live
-```
+
+  
+```https://www.geeksforgeeks.org/batch/twenty-projects-in-twenty-days-batch-5?tab=Live
+
 
 AIM : ASKING THE MODEL TO GENERATE THE RECENT TRENDS IN AI.SO WE NEED to do a market research.Unlike in gemini LLM here we include market research capability as well (ie not from trained data alone, but internet matter as well) We need 
 2 TOOLS
