@@ -1,0 +1,66 @@
+To run this complete agentic workforce in 2026, you need a precise set of libraries. As of early 2026, **CrewAI** and **LangChain** have optimized their integrations for Gemini 2.5 and 3.0 series models.
+
+Create a file named `requirements.txt` in your project root and paste the following:
+
+```text
+# --- Core Agent Framework ---
+crewai>=0.100.0
+crewai-tools>=1.9.0
+
+# --- LLM & Google Integration ---
+langchain-google-genai>=4.2.0
+google-genai>=1.0.0
+
+# --- Environment & Utils ---
+python-dotenv>=1.0.1
+requests>=2.31.0
+
+```
+
+---
+
+## 🛠️ Quick Start Guide
+
+### 1. Install Everything
+
+Run this command in your terminal to set up your environment:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### 2. Configure Your Secrets
+
+Create a `.env` file (ensure it is in the same folder as your `main.py`):
+
+```env
+GOOGLE_API_KEY=your_gemini_api_key
+SERPER_API_KEY=your_serper_api_key
+
+```
+
+### 3. Verify Your Python Version
+
+Ensure you are using **Python 3.10 or higher**, as the 2026 versions of CrewAI utilize advanced type hinting and asynchronous features not supported in older versions.
+
+---
+
+## 🚀 One-Click Execution
+
+With these requirements installed and your `main.py` ready, you can now run:
+
+```bash
+python main.py
+
+```
+
+### What happens next?
+
+Your terminal will start showing the **"Thought Process"** of each agent:
+
+* You'll see the **Researcher** calling the Serper API.
+* You'll see the **Project Manager** delegating tasks when the Writer finishes.
+* The final files will appear in your `/output` folder automatically.
+
+** create a `.gitignore` file for you to ensure you don't accidentally leak your API keys when pushing this to GitHub?**
