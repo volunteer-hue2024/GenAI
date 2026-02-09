@@ -1,28 +1,28 @@
 # GenAI
 
 * Limitations of LLM
-> what is the cheapest flight for tomorro to delhi --fails because trained only until a cut off date
-> can you order a pizza --- fails bcoz it cannot "do" a task or workflow
+1. "what is the cheapest flight for tomoro to delhi" --fails because trained only until a cut off date
+2. "can you order a pizza" --- fails bcoz it cannot "do" a task or workflow
 
  * AI Agent 
- > Cheapest flight for tomoro to delhi --- gets info after fetching data from say make my trip too
+ > Cheapest flight for tomoro to delhi --- gets info after fetching data , from say makemytrip too
 
 * Difference between AI Agent and Agentic AI
- > Agentic AI is combining many AI agents
-> Not just Q and A
-> Autonomous ie Without human interference
+> Agentic AI is combining many AI agents.
+> Not just Q and A.
+> Autonomous ie Without human interference.
 >
-> Input prompt > Reasoning > Planning( the sequence including payment may be planned)
+* Input prompt > Reasoning > Planning( the sequence including payment may be planned)
 
 * CREW AI
 
->AS lANGCHAIN IS TO RAG is crew AI is to AI agent
->structured system encompassing agnets,prcess and tasks and outcomes
+- AS lANGCHAIN IS TO RAG , crew AI is to AI agent
+- structured system encompassing agnets,process and tasks and outcomes
 
 * CREW AI ARCHITECTURE
->Define all Agents
->Defne tasks
->Execution
+- Define all Agents
+- Defne tasks
+- Execution
 >Crew Formation
 >Output
 
